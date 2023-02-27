@@ -3,10 +3,10 @@
   import '@svelteness/kit-docs/client/styles/normalize.css';
   import '@svelteness/kit-docs/client/styles/fonts.css';
   import '@svelteness/kit-docs/client/styles/theme.css';
-  import '@svelteness/kit-docs/client/styles/vars.css';
+  import '$lib/styles/kit-docs.css'
 
   import { page } from '$app/stores';
-  import SvelteLogo from '$img/svelte-horizontal.svg?raw';
+  import Logo from '$img/svelte-horizontal.svg?raw';
 
   import { Button, KitDocs, KitDocsLayout, createSidebarContext } from '@svelteness/kit-docs';
 
@@ -17,7 +17,7 @@
 
   /** @type {import('@svelteness/kit-docs').NavbarConfig} */
   const navbar = {
-    links: [{ title: 'Documentation', slug: '/docs', match: /\/docs/ }],
+    links: [/* { title: 'Documentation', slug: '/docs', match: /\/docs/ } */],
   };
 
   const { activeCategory } = createSidebarContext(sidebar);
@@ -39,12 +39,16 @@
 </svelte:head>
 
 <KitDocs {meta}>
-  <KitDocsLayout {navbar} {sidebar}>
+  <KitDocsLayout search {navbar} {sidebar}>
+    <!-- TODO: Style searchbox -->
+    <input type="text" placeholder="Search documentation" slot="search" />
     <div class="logo" slot="navbar-left">
       <Button href="/">
-        {@html SvelteLogo}
+        <!-- {@html Logo} -->
+        <h1>European Film College - Production Workflow Guide</h1>
       </Button>
     </div>
+    <div slot="navbar-right" />
 
     <slot />
   </KitDocsLayout>
@@ -52,11 +56,13 @@
 
 <style>
   :global(:root) {
-    --kd-color-brand-rgb: 233, 127, 6;
+    --kd-color-brand: 170 0 0;
+    /* --kd-color-brand-rgb: 233, 127, 6; */
   }
 
   :global(:root.dark) {
-    --kd-color-brand-rgb: 213, 149, 76;
+    --kd-color-brand: 255 20 20;
+    /* --kd-color-brand-rgb: 213, 149, 76; */
   }
 
   .logo :global(a) {

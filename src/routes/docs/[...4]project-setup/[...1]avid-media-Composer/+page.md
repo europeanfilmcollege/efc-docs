@@ -1,5 +1,5 @@
 ---
-title: Page Title
+title: AVID Media Composer
 description: Page description.
 ---
 

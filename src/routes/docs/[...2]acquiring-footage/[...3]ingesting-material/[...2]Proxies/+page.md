@@ -1,5 +1,5 @@
 ---
-title: Page Title
+title: Creating proxies
 description: Page description.
 ---
 

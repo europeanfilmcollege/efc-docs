@@ -1,5 +1,5 @@
 ---
-title: High Quality version for archival and screening
+title: High Quality for screening & archival
 description: A version is needed for high quality screenings and archival. New exports can also be made from this version.
 ---
 
@@ -58,9 +58,12 @@ Follow along for setting up the options for your editing software
 
 !!!
 
-!!!step title="Subtitles"|(slot=description)=In the *Subtitle Settings* at *Format* select **Burn into video** from the drop-down.|orientation="vertical"
+!!!step title="Subtitles"|(slot=description)=In the *Subtitle Settings* at *Format* select **Burn into video** from the drop-down.
 
-![Configuration for DaVinci Resolve video options](/src/img/docs/DaVinciArchiveVideo.jpg)
+<script>
+  import DaVinciArchiveVideo from '$img/docs/DaVinciArchiveVideo.jpg'
+</script>
+<img src={DaVinciArchiveVideo} alt='Configuration for DaVinci Resolve video options'>
 !!!
 
 !!!step title="Check Audio Settings"|(slot=description)=Go to the audio tab. Make sure the *Sample Rate* is at **48000**, and *Bit Depth* at **24**.|orientation="vertical"
@@ -68,9 +71,12 @@ Follow along for setting up the options for your editing software
 
 !!!
 
-!!!step title="Audio Output"|(slot=description)=Select the appropriate output track for the export.|orientation="vertical"
+!!!step title="Audio Output"|(slot=description)=Select the appropriate output track for the export.
 
-![Configuration for DaVinci Resolve audio options](/src/img/docs/DaVinciArchiveAudio.jpg)
+<script>
+  import DaVinciArchiveAudio from '$img/docs/DaVinciArchiveAudio.jpg'
+</script>
+<img src={DaVinciArchiveAudio} alt='Configuration for DaVinci Resolve audio options'>
 !!!
 
 !!!step title="Render"|(slot=description)=Click *Add to Render Queue* at the bottom. The render job will show up in the queue to the right. Once you have the jobs queued that you want, click the *Render All* button.|orientation="vertical"
@@ -125,7 +131,10 @@ Follow along for setting up the options for your editing software
 
 !!!step title="Video format"|(slot=description)=In the dropdown at *Format* select DNxHR/DNxHD MXF OP1a
 
-![Premiere Pro format setting](/src/img/docs/PremiereVideo1.png)
+<script>
+  import PremiereVideo1 from '$img/docs/PremiereVideo1.png'
+</script>
+<img src={PremiereVideo1} alt='Premiere Pro format setting'>
 
 !!!
 
@@ -135,13 +144,20 @@ Follow along for setting up the options for your editing software
 
 !!!step title="C100 video settings"|(slot=description)=If you filmed on the Canon EOS C100, select the *Preset* **DNX HQ 1080p 25**. Next go to the video section below and change *Resolution* to **DNxHR HQ 8-bit**.
 
-![Premiere Pro preset setting](/src/img/docs/PremiereVideo2.png)
+
+<script>
+  import PremiereVideo2 from '$img/docs/PremiereVideo2.png'
+</script>
+<img src={PremiereVideo2} alt='Premiere Pro preset setting'>
 
 !!!
 
 !!!step title="Audio settings"|(slot=description)=In the Audio tab, select the amount of channels that you have.<br>That would usually be:<br>2 channels for stereo<br>6 channels for surround sound<br><br>Make sure the *Sample Size* is **24 bit**.
 
-![Premiere Pro audio setting](/src/img/docs/PremiereAudio1.png)
+<script>
+  import PremiereAudio1 from '$img/docs/PremiereAudio1.png'
+</script>
+<img src={PremiereAudio1} alt='Premiere Pro audio setting'>
 
 !!!
 

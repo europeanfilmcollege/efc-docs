@@ -1,5 +1,5 @@
 ---
-title: General Settings
+title: Filename & Location
 description: Once the film has finished sound, edit, colour grading, credits, graphics, and subtitles and everything has been put together, you need to export multiple versions of the film.
 ---
 
@@ -42,18 +42,3 @@ For example:
 **<span style="background-color:#3f77d1; padding:2px; border-radius:.3rem;">Subs</span> _**
 **<span style="background-color:#ac25c4; padding:2px; border-radius:.3rem;">51</span> _**
 **<span style="background-color:#c42525; padding:2px; border-radius:.3rem;">JohannesFarmerKnudsen</span>**
-
-
-:::steps
-
-!!!step title="Step 1"|description="This is a description for step 1."
-
-
-!!!
-
-!!!step title="Step 2"|(slot=description)=This is a description for step 2 with markdown.
-
-
-!!!
-
-:::

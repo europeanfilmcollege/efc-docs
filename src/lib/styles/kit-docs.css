@@ -100,3 +100,13 @@ kbd {
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
+
+.wip {
+  color: var(--tw-prose-headings);
+  font-weight: 900;
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  background-color:#ff0033;
+  padding: 4px 8px;
+  border-radius: .3rem;
+}

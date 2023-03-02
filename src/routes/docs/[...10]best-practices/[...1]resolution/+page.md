@@ -1,8 +1,8 @@
 ---
 title: Resolution
-description: Details about the resolution of the export
+description: Details about the resolution of the export 
 ---
-
+<span class="wip">WIP</span>
 # {$frontmatter.title}
 
 {$frontmatter.description}
@@ -16,4 +16,9 @@ The following formats are standard export formats. For cinema screenings only th
 | DCI         | 1.9:1        | 2048  | 1080   |
 | *DCI Scope* | 2.39:1       | 2048  | 858    |
 
-![Aspect Ratio comparison](/src/img/docs/AspectRatio1.svg)
+
+
+<script>
+  import AspectRatio from '$img/docs/AspectRatio1.svg'
+</script>
+<img src={AspectRatio} alt='Aspect Ratio comparison'>

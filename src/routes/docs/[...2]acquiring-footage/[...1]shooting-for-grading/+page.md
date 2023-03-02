@@ -2,7 +2,7 @@
 title: Shooting for Grading
 description: Before shooting begins, we need to make sure that the camera is set up for our intended workflow.
 ---
-
+<span class="wip">WIP</span>
 # {$frontmatter.title}
 
 {$frontmatter.description}

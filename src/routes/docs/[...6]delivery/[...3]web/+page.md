@@ -2,10 +2,12 @@
 title: Web Delivery
 description: A compressed version for playback on the web is also needed.
 ---
+<span class="wip">WIP</span>
 
-# {$frontmatter.title} <span style="background-color:#ff0033; margin-left:16px; padding:4px 8px; border-radius:.3rem;">WIP</span>
+# {$frontmatter.title}
 
 {$frontmatter.description}
+
 
 ## Options
 

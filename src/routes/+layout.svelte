@@ -41,11 +41,11 @@
 <KitDocs {meta}>
   <KitDocsLayout search {navbar} {sidebar}>
     <!-- TODO: Style searchbox -->
-    <input type="text" placeholder="Search documentation" slot="search" />
+    <!-- <input type="text" placeholder="Search documentation" slot="search" /> -->
     <div class="logo" slot="navbar-left">
       <Button href="/">
         <!-- {@html Logo} -->
-        <h1>European Film College - Production Workflow Guide</h1>
+        <h1>EFC - Production Workflow Guide</h1>
       </Button>
     </div>
     <div slot="navbar-right" />

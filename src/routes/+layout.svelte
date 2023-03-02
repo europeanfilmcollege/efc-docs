@@ -6,7 +6,7 @@
   import '$lib/styles/kit-docs.css'
 
   import { page } from '$app/stores';
-  import Logo from '$img/svelte-horizontal.svg?raw';
+  // import Logo from '$img/logo.svg?raw';
 
   import { Button, KitDocs, KitDocsLayout, createSidebarContext } from '@svelteness/kit-docs';
 

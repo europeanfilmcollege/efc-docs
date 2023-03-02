@@ -81,3 +81,22 @@
   --kd-code-highlight-border: rgb(var(--kd-color-brand));
   --kd-code-highlight-color: rgb(var(--kd-color-brand) / 0.08);
 }
+
+kbd {
+  padding: 3px 5px;
+  font: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  vertical-align: middle;
+  color: rgb(var(--kd-color-soft));
+  background-color: rgb(var(--kd-color-elevate));
+  border: solid 1px rgb(var(--kd-color-border));
+  border-bottom-color: rgb(var(--kd-color-border));
+  border-radius: 5px;
+  box-shadow: inset 0 -1px 0 rgb(var(--kd-color-border));
+}
+
+.aspect-ratio-box {
+  margin: auto;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}

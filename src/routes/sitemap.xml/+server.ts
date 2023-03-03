@@ -18,7 +18,7 @@ export async function GET() {
     .map(
       (url) => `
 			<url>
-				<loc>https://localhost:5173/${url}</loc>
+				<loc>https://efc-docs.vercel.app/${url}</loc>
 				<changefreq>daily</changefreq>
 				<priority>0.7</priority>
 			</url>

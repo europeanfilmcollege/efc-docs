@@ -8,7 +8,13 @@
   import { page } from '$app/stores';
   // import Logo from '$img/logo.svg?raw';
 
-  import { Button, KitDocs, KitDocsLayout, createSidebarContext } from '@svelteness/kit-docs';
+  import {
+    createKitDocsLoader,
+    KitDocs,
+    KitDocsLayout,
+    Button,
+    createSidebarContext
+  } from '@svelteness/kit-docs';
 
   /** @type {import('./$types').LayoutData} */
   export let data;
@@ -39,7 +45,7 @@
 </svelte:head>
 
 <KitDocs {meta}>
-  <KitDocsLayout search {navbar} {sidebar}>
+  <KitDocsLayout {navbar} {sidebar}> <!-- TODO: Add 'search' -->
     <!-- TODO: Style searchbox -->
     <!-- <input type="text" placeholder="Search documentation" slot="search" /> -->
     <div class="logo" slot="navbar-left">

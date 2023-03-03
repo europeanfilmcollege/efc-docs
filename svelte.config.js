@@ -2,15 +2,15 @@ import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  extensions: ['.svelte', '.md'],
+	extensions: ['.svelte', '.md'],
 
-  kit: {
-    adapter: adapter(),
+	kit: {
+		adapter: adapter(),
 
-    prerender: {
-      handleMissingId: 'warn',
-    },
-  }
+		prerender: {
+			handleMissingId: 'warn'
+		}
+	}
 };
 
 export default config;

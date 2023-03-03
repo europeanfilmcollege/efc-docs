@@ -2,7 +2,9 @@
 title: Subtitles
 description: The recommended text style for subtitles are these settings
 ---
+
 <span class="wip">WIP</span>
+
 # {$frontmatter.title}
 
 {$frontmatter.description}

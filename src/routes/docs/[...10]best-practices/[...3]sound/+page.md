@@ -2,8 +2,10 @@
 title: Sound
 description: Details on sound
 ---
+
 <span class="wip">WIP</span>
-# {$frontmatter.title} 
+
+# {$frontmatter.title}
 
 {$frontmatter.description}
 
@@ -17,11 +19,9 @@ After the project is set up for surround sound, we can add another bus for stere
 
 !!!step title="Step 1"|(slot=description)=Change to the Fairlight page.|orientation="vertical"
 
-
 !!!
 
 !!!step title="Step 2"|(slot=description)=Go to the top bar, select Fairlight, then, Bus Format.
-
 
 !!!
 
@@ -34,7 +34,7 @@ After the project is set up for surround sound, we can add another bus for stere
 
 !!!
 
-!!!step title="Step 4"|(slot=description)=In the mixer window, find your 5.1 bus and in the *Bus Outputs* section click the plus and add the stereo bus you just made.
+!!!step title="Step 4"|(slot=description)=In the mixer window, find your 5.1 bus and in the _Bus Outputs_ section click the plus and add the stereo bus you just made.
 
 <script>
   import SurroundStereo2 from '$img/docs/SurroundStereo2.jpg'
@@ -53,7 +53,6 @@ After the project is set up for surround sound, we can add another bus for stere
 !!!
 
 !!!step title="Step 6"|(slot=description)=Now on the Delivery page under Audio settings you can select the stereo bus for the web delivery.
-
 
 <script>
   import SurroundStereo4 from '$img/docs/SurroundStereo4.png'

@@ -2,12 +2,12 @@
 title: Web Delivery
 description: A compressed version for playback on the web is also needed.
 ---
+
 <span class="wip">WIP</span>
 
 # {$frontmatter.title}
 
 {$frontmatter.description}
-
 
 ## Options
 
@@ -26,7 +26,7 @@ description: A compressed version for playback on the web is also needed.
   - Format: As a separate file
   - Export As: WebVTT
 
-----------------------------------------------------------------
+---
 
 ## Configuration
 
@@ -34,36 +34,33 @@ Follow along for setting up the options for your editing software
 
 ### DaVinci Resolve
 
-
 ### AVID Media Composer
 
 :::steps
 
 !!!step title="Step 1"|description="Go to File -> Export or right-click the timeline in the bin and click Export, and choose the export location"|orientation="vertical"
 
-
 !!!
 !!!step title="Step 2"|description="Select the preset WEB EXPORT"
-
 
 !!!
 !!!step title="Step 3"|description="Check the options"
 
+!!!
+!!!step title="Step 4"|(slot=description)=From the dropdown at _Export As_ select: **MOV**|orientation="vertical"
 
 !!!
-!!!step title="Step 4"|(slot=description)=From the dropdown at *Export As* select: **MOV**|orientation="vertical"
+!!!step title="Step 5"|(slot=description)=In the video section at _Video compression_ select: **H265**|orientation="vertical"
 
 !!!
-!!!step title="Step 5"|(slot=description)=In the video section at *Video compression* select: **H265**|orientation="vertical"
+!!!step title="Step 6"|(slot=description)=In the audio section make sure _Sampling rate_ is at **48000**, _Bits per sample_ is **24**, _interleaved_ is :white*check_mark: checked, and select \_Mix* according to the provided sound mix.|orientation="vertical"
 
 !!!
-!!!step title="Step 6"|(slot=description)=In the audio section make sure *Sampling rate* is at **48000**, *Bits per sample* is **24**, *interleaved* is :white_check_mark: checked, and select *Mix* according to the provided sound mix.|orientation="vertical"
-
-!!!
-!!!step title="Step 7"|(slot=description)=At last click *Save* and *Export* the film.|orientation="vertical"
+!!!step title="Step 7"|(slot=description)=At last click _Save_ and _Export_ the film.|orientation="vertical"
 
 !!!
 :::
 
 ### Adobe Premiere Pro
+
 ...

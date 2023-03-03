@@ -2,7 +2,9 @@
 title: Transferring material
 description: Page description
 ---
+
 <span class="wip">WIP</span>
+
 # {$frontmatter.title}
 
 {$frontmatter.description}
@@ -10,6 +12,7 @@ description: Page description
 ## Data handling
 
 It's very important to always have at least two copies of your material. Ideally you should follow the 3:2:1 rule that says the following:
+
 - 3 copies of data
 - On 2 different media (e.g one being an SSD, the other a server)
 - 1 being off-site (an other location than the 2 other copies)

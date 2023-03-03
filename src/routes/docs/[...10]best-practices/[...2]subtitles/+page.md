@@ -21,4 +21,6 @@ description: The recommended text style for subtitles are these settings
 - Drop shadow: **None**
 - Background: **None**
 
-If you have subtitles on your film it is very important to make sure the film starts at the timecode 00:00:00:00 before exporting the film or subtitles.
+:::admonition type="warning" title="IMPORTANT"
+If you have subtitles on your film it is very important to make sure the film starts at the timecode 00:00:00:00 before exporting the film or subtitles. If not the subtitles will not play in sync with the movie once uploaded to the movie database.
+:::

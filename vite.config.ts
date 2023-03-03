@@ -4,9 +4,12 @@ import icons from 'unplugin-icons/vite';
 import kitDocs from '@svelteness/kit-docs/node';
 
 /** @type {import('vite').UserConfig} */
-export default defineConfig({
+
+const config ={
 	plugins: [icons({ compiler: 'svelte' }), kitDocs(), sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	}
-});
+};
+
+export default config;

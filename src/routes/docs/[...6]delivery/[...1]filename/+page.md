@@ -9,12 +9,11 @@ description: Once the film has finished sound, edit, colour grading, credits, gr
 
 ## Export Location
 
-For films exporting from the AVID workstations the location for the exports is the **XXPORTS FOR STUDENTX** network drive / workspace.
-For films exporting from the computers in the documentary classroom, editing suite 1 & 2, the export location is the **AllEdit** network drive.
+The location for exports is the network drive called **Exports**. On the editing workstations it'll be mounted as the **X:** drive.
 
-**Fiction films** must be exported to the **Spring Fiction** folder. In that folder there are folders for each spring wave. In the respective folder for your film you create a folder named as following: **[CREW ID]\_FilmTitle**. For example: A1-2_WeNeedToExport.
+**Spring films** must be exported to the **Spring Fiction** folder. In that folder, you create a folder named as follows: **CREW ID\_FilmTitle**. For example *A1-2_WeNeedToExport*.
 
-**Documentary films** must be exported to the Spring Doc folder. In this folder you create a folder named the title of your film. Write **DOC** as **CREW ID** if it’s a documentary.
+**Documentary films** must be exported to the **Spring Documentaries** folder. In this folder, you create a folder named the title of your film. Write **DOC** followed by your production number as **CREW ID** if it’s a documentary. Include all three digits. For example **DOC002_MyDocumentary**.
 
 **Personal projects** and **Weekend projects** must be exported to the **Personal Projects** folder. Write **PP** as **CREW ID** in the filename.
 
@@ -42,3 +41,9 @@ For example:
 **<span style="background-color:#3f77d1; padding:2px; border-radius:.3rem;">Subs</span> \_**
 **<span style="background-color:#ac25c4; padding:2px; border-radius:.3rem;">51</span> \_**
 **<span style="background-color:#c42525; padding:2px; border-radius:.3rem;">JohannesFarmerKnudsen</span>**
+
+Don't use any spaces between letters in the filename.
+
+:::admonition type="important"
+This is a note.
+:::

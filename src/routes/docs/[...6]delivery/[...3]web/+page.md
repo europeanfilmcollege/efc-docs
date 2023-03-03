@@ -34,6 +34,7 @@ Follow along for setting up the options for your editing software
 
 ### DaVinci Resolve
 
+...
 ### AVID Media Composer
 
 :::steps

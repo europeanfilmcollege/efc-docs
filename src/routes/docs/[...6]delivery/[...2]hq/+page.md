@@ -7,6 +7,7 @@ description: A version is needed for high quality screenings and archival. New e
 
 {$frontmatter.description}
 
+
 ## Options
 
 - Format: MXF OP1A
@@ -104,7 +105,7 @@ Follow along for setting up the options for your editing software
 
 !!!
 
-!!!step title="Step 6"|(slot=description)=In the audio section make sure _Sampling rate_ is at **48000**, _Bits per sample_ is **24**, _interleaved_ is :white*check_mark: checked, and select \_Mix* according to the provided sound mix.|orientation="vertical"
+!!!step title="Step 6"|(slot=description)=In the audio section make sure the _Sampling rate_ is at **48000**, _Bits per sample_ is **24**, _interleaved_ is ✅ **checked**, and select _Mix_ according to the provided sound mix.|orientation="vertical"
 
 !!!
 

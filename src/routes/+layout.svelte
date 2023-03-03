@@ -5,6 +5,8 @@
 	import '@svelteness/kit-docs/client/styles/theme.css';
 	import '$lib/styles/kit-docs.css';
 
+/* 	import Admonition from '/src/kit-docs/Admonition.svelte' */
+
 	import { page } from '$app/stores';
 	// import Logo from '$img/logo.svg?raw';
 

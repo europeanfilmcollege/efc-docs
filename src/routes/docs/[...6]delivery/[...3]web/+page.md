@@ -13,8 +13,8 @@ description: A compressed version for playback on the web is also needed.
 
 - Format: Quicktime
 - Video
-  - Codec: H265 (HVEC)
-  - Resolution: the native resolution of film's aspect ratio with a max width of 2048px and a max height of 1080px. See the [resolution](/docs/best-practices/resolution) section for more information.
+  - Codec: H265 (HEVC)
+  - Resolution: the native resolution of the film's aspect ratio with a max width of 2048px and a max height of 1080px. See the [resolution](/docs/best-practices/resolution) section for more information.
   - Quality: Best
   - Encoding Profile: Main10
 - Audio
@@ -53,7 +53,7 @@ Follow along for setting up the options for your editing software
 !!!step title="Step 5"|(slot=description)=In the video section at _Video compression_ select: **H265**|orientation="vertical"
 
 !!!
-!!!step title="Step 6"|(slot=description)=In the audio section make sure _Sampling rate_ is at **48000**, _Bits per sample_ is **24**, _interleaved_ is :white*check_mark: checked, and select \_Mix* according to the provided sound mix.|orientation="vertical"
+!!!step title="Step 6"|(slot=description)=In the audio section make sure the _Sampling rate_ is at **48000**, _Bits per sample_ is **24**, _Interleaved_ is ✅ **checked**, and select _Mix_ according to the provided sound mix.|orientation="vertical"
 
 !!!
 !!!step title="Step 7"|(slot=description)=At last click _Save_ and _Export_ the film.|orientation="vertical"

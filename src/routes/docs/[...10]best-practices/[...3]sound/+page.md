@@ -39,11 +39,11 @@ After the project is set up for surround sound, we can add another bus for stere
 <script>
   import SurroundStereo2 from '$img/docs/SurroundStereo2.jpg'
 </script>
-<img src={SurroundStereo2} alt='Make surround sound bus to output to stereo bus'>
+<img src={SurroundStereo2} alt='Make surround sound bus to output to the stereo bus'>
 
 !!!
 
-!!!step title="Step 5"|(slot=description)=You should now have audio playing in the stereo bus. You can monitor that bus by changing to it by selecting it from the dropdown at the video player on the Fairlight page.
+!!!step title="Step 5"|(slot=description)=You should now have the audio playing in the stereo bus. You can monitor that bus by selecting it from the dropdown at the video player on the Fairlight page.
 
 <script>
   import SurroundStereo3 from '$img/docs/SurroundStereo3.png'

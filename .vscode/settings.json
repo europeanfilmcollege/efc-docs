@@ -1,0 +1,10 @@
+{
+	"cSpell.language": "en-GB,en",
+	"cSpell.words": ["Blackmagic", "frontmatter", "HVEC", "Quicktime", "Tera", "YRGB"],
+	"grammarly.selectors": [
+		{
+			"language": "markdown",
+			"scheme": "file"
+		}
+	]
+}

@@ -1,21 +1,20 @@
 import { expect, test } from '@playwright/test';
 
-const targetUrl = process.env.ENVIRONMENT_URL || 'https://efc-docs.vercel.app'
+const targetUrl = process.env.ENVIRONMENT_URL || 'https://efc-docs.vercel.app';
 
 test('visit page and take screenshot', async ({ page }) => {
-  // If available, we set the target URL to a preview deployment URL provided by the ENVIRONMENT_URL created by Vercel.
-  // Otherwise, we use the Production URL.
+	// If available, we set the target URL to a preview deployment URL provided by the ENVIRONMENT_URL created by Vercel.
+	// Otherwise, we use the Production URL.
 
-  // We visit the page. This waits for the "load" event by default.
-  const response = await page.goto(targetUrl)
+	// We visit the page. This waits for the "load" event by default.
+	const response = await page.goto(targetUrl);
 
-  // Test that the response did not fail
-  expect(response.status()).toBeLessThan(400)
+	// Test that the response did not fail
+	expect(response.status()).toBeLessThan(400);
 
-  // Take a screenshot
-  await page.screenshot({ path: 'screenshot.jpg' })
-})
-
+	// Take a screenshot
+	await page.screenshot({ path: 'screenshot.jpg' });
+});
 
 test('index page has expected h1', async ({ page }) => {
 	await page.goto(targetUrl);

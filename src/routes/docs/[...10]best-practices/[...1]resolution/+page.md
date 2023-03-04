@@ -22,3 +22,4 @@ The following formats are standard export formats. For cinema screenings, only t
   import AspectRatio from '$img/docs/AspectRatio1.svg'
 </script>
 <img src={AspectRatio} alt='Aspect Ratio comparison'>
+Pictured is a DCI container with the dimensions of 2048x1080 and how the other aspect ratios fit inside it.

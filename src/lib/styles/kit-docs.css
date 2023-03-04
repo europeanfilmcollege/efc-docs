@@ -82,6 +82,8 @@
 	--kd-code-highlight-color: rgb(var(--kd-color-brand) / 0.08);
 }
 
+/* CUSTOM */
+
 kbd {
 	padding: 3px 5px;
 	font: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
@@ -102,11 +104,20 @@ kbd {
 }
 
 .wip {
-	color: var(--tw-prose-headings);
+	color: #fff;
 	font-weight: 900;
 	font-size: 1.5em;
 	letter-spacing: 4px;
 	background-color: #ff0033;
 	padding: 4px 8px;
 	border-radius: 0.3rem;
+}
+
+.file-block {
+	color: #fff;
+	padding: 2px;
+	border-radius: 0.3rem;
+}
+.file-block-lg {
+	padding: 3px;
 }

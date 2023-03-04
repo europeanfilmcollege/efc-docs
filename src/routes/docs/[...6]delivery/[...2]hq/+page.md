@@ -1,12 +1,11 @@
 ---
 title: High Quality for screening & archival
-description: A version is needed for high quality screenings and archival. New exports can also be made from this version.
+description: A version is needed for high-quality screenings and archival. Additional exports can also be made from this version at a later date.
 ---
 
 # {$frontmatter.title}
 
 {$frontmatter.description}
-
 
 ## Options
 
@@ -144,7 +143,7 @@ Follow along for setting up the options for your editing software
 
 !!!
 
-!!!step title="Audio settings"|(slot=description)=In the Audio tab, select the amount of channels that you have.<br>That would usually be:<br>2 channels for stereo<br>6 channels for surround sound<br><br>Make sure the _Sample Size_ is **24 bit**.
+!!!step title="Audio settings"|(slot=description)=In the Audio tab, select the number of channels that you have.<br>That would usually be:<br>2 channels for stereo<br>6 channels for surround sound<br><br>Make sure the _Sample Size_ is **24 bit**.
 
 <script>
   import PremiereAudio1 from '$img/docs/PremiereAudio1.png'
@@ -153,7 +152,7 @@ Follow along for setting up the options for your editing software
 
 !!!
 
-!!!step title="Subtitles"|(slot=description)=Go to subtitles and Captions tab and select the format to be burn in.|orientation="vertical"
+!!!step title="Subtitles"|(slot=description)=Go to the subtitles and Captions tab and select the format to be burn in.|orientation="vertical"
 
 !!!
 

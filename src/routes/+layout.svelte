@@ -5,8 +5,6 @@
 	import '@svelteness/kit-docs/client/styles/theme.css';
 	import '$lib/styles/kit-docs.css';
 
-/* 	import Admonition from '/src/kit-docs/Admonition.svelte' */
-
 	import { page } from '$app/stores';
 	// import Logo from '$img/logo.svg?raw';
 
@@ -61,12 +59,12 @@
 
 <style>
 	:global(:root) {
-		--kd-color-brand: 170 0 0;
+		--kd-color-brand: 255 20 0;
 		/* --kd-color-brand-rgb: 233, 127, 6; */
 	}
 
 	:global(:root.dark) {
-		--kd-color-brand: 255 20 20;
+		--kd-color-brand: 255 50 40;
 		/* --kd-color-brand-rgb: 213, 149, 76; */
 	}
 
@@ -74,6 +72,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin-left: 1rem;
+		font-size: 1.2rem;
 	}
 
 	.logo :global(svg) {

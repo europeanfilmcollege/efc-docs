@@ -1,6 +1,6 @@
 ---
 title: Transferring material
-description: Page description
+description: Once the media has been captured, it must be backed up safely and trustworthy.
 ---
 
 <span class="wip">WIP</span>
@@ -16,6 +16,10 @@ It's very important to always have at least two copies of your material. Ideally
 - 3 copies of the data
 - On 2 different media (e.g one being an SSD, the other a server)
 - 1 being off-site (another location than the 2 other copies)
+
+:::admonition type="danger" title="IMPORTANT"
+It's very important that the media captured doesn't change the filename at any moment of production. This can lead to media not linking up correctly when moving the project between software.
+:::
 
 ## Transferring the material
 

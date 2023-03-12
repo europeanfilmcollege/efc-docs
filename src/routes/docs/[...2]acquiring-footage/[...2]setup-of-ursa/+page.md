@@ -19,10 +19,13 @@ If you are not going to grade the footage afterwards, just select video or exten
 
 ## Codec, Quality, & Resolution
 
-The best way to record footage with the highest flexibility is to shoot it in Blackmagic RAW, however this might not be the best choice for you.
+When doing productions at EFC the best balance between quality and simplicity in the workflow is to record in **ProRes 422** with a resolution of either **2K DCI** or **HD** depending on what aspect ratio you are shooting for.
+
+<!-- The best way to record footage with the highest flexibility is to shoot it in Blackmagic RAW, however this might not be the best choice for you.
 
 Pros:
 
 - A lot more flexibility in post-production. The ISO and white balance that the footage was shot with doesn’t matter.
 - Higher quality footage compared to the equivalent ProRes option at the same bitrate.
 - A lot better results when chroma keying
+ -->
